@@ -88,7 +88,7 @@ To test on your phone over the same Wi-Fi, run `HOST=0.0.0.0 ADMIN_KEY=<your-key
 
 **Claude AI guide (optional).** Run `npm install`, then `ANTHROPIC_API_KEY=... npm start`. Without a key, Hamroh uses its built-in offline answers.
 
-**Static hosting.** `npm run build` writes `dist/`. GitHub Pages publishes it automatically on every push to `main`.
+**Static hosting.** `npm run build` writes `dist/`. GitHub Pages publishes it automatically on every push to `main`, after `npm test` and the browser tests pass. Pull requests run the same tests.
 
 ## Project layout
 

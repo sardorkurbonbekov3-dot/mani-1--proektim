@@ -90,6 +90,8 @@ To test on your phone over the same Wi-Fi, run `HOST=0.0.0.0 ADMIN_KEY=<your-key
 
 ## Project layout
 
+See [ARCHITECTURE.md](ARCHITECTURE.md) for how the parts fit together: the shared engine, event sourcing, sync and the trust model.
+
 ```
 public/
   index.html, landing.css, landing.mjs   ← project website (/)
